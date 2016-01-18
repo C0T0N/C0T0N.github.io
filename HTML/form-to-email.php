@@ -2,7 +2,8 @@
 if(!isset($_POST['submit']))
 {
 	//This page should not be accessed directly. Need to submit the form.
-	header('Location: error_form.html');
+    echo "I need your email to reply to you!";
+	/*header('Location: error_form.html');*/
 }
 
 $visitor_email = $_POST['sender_email'];
