@@ -1,10 +1,10 @@
 @font-face {
-    font-family: Montserrat-Light;
-    src: url('../Fonts/Montserrat/Montserrat-Light.otf') format('otf');
+    font-family: montserratlight;
+    src: url('../Fonts/Montserrat/montserratlight.otf') format('otf');
 }
 @font-face {
-    font-family: Montserrat-UltraLight;
-    src: url('../Fonts/Montserrat/Montserrat-UltraLight.otf') format('otf');
+    font-family: montserratultra_light;
+    src: url('../Fonts/Montserrat/montserratultra_light.otf') format('otf');
 }
 
 *, html 
@@ -15,7 +15,7 @@
 
 body
 {
-    font-family: Montserrat-Light,sans-serif;
+    font-family: montserratlight,sans-serif;
     color: rgb(208,50,75);
     background-color: rgb(16,24,34);
 }
@@ -58,7 +58,7 @@ a:visited
     margin-left: auto;
     margin-right: auto;
     margin-top: 30px;
-    font-family: Montserrat-UltraLight,sans-serif;
+    font-family: montserratultra_light,sans-serif;
     text-transform: uppercase;
     letter-spacing: 6px;
     font-size: 14px;
@@ -109,7 +109,7 @@ a:visited
     display: block;
     width: 100%;
     height: 50px;
-    font-family: Montserrat-Light,sans-serif;
+    font-family: montserratlight,sans-serif;
     text-transform: uppercase;
     letter-spacing: 6px;
     font-size: 14px;
@@ -140,7 +140,7 @@ li.hire_me_menu
     display: block;
     width: 100%;
     height: 50px;
-    font-family: Montserrat-Light,sans-serif;
+    font-family: montserratlight,sans-serif;
     text-transform: uppercase;
     letter-spacing: 6px;
     font-size: 14px;
@@ -249,7 +249,7 @@ main .vignettes img
     text-align: center;
     height: 40px;
     width: 168px;
-    font-family: Montserrat-UltraLight,sans-serif;
+    font-family: montserratultra_light,sans-serif;
     text-transform: uppercase;
     letter-spacing: 6px;
     line-height: 40px;
@@ -269,7 +269,7 @@ main .vignettes img
     text-align: center;
     height: 40px;
     width: 168px;
-    font-family: Montserrat-Light,sans-serif;
+    font-family: montserratlight,sans-serif;
     text-transform: uppercase;
     letter-spacing: 6px;
     line-height: 40px;
@@ -381,7 +381,7 @@ textarea
     margin-top: -1px;
     padding: 6px 15px 0px 15px;
     text-align: left;
-    font-family: Montserrat-Light, sans-serif;
+    font-family: montserratlight, sans-serif;
     
     -webkit-border-radius:0; 
     border-radius:0;
@@ -398,7 +398,7 @@ input[type=submit]
     text-align: center;
     height: 40px;
     width: 86px;
-    font-family: Montserrat-UltraLight,sans-serif;
+    font-family: montserratultra_light,sans-serif;
     text-transform: uppercase;
     letter-spacing: 6px;
     line-height: 40px;
@@ -424,7 +424,7 @@ input[type=submit]:active
     text-align: center;
     height: 40px;
     width: 86px;
-    font-family: Montserrat-Light,sans-serif;
+    font-family: montserratlight,sans-serif;
     text-transform: uppercase;
     letter-spacing: 6px;
     line-height: 40px;
@@ -448,7 +448,7 @@ input[type=submit]:visited
     text-align: center;
     height: 40px;
     width: 86px;
-    font-family: Montserrat-UltraLight,sans-serif;
+    font-family: montserratultra_light,sans-serif;
     text-transform: uppercase;
     letter-spacing: 6px;
     line-height: 40px;
