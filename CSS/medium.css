@@ -1,0 +1,447 @@
+@font-face {
+    font-family: Montserrat-Light;
+    src: url(../Fonts/Montserrat/Montserrat-Light.otf) format('otf');
+}
+@font-face {
+    font-family: Montserrat-UltraLight;
+    src: url(../Fonts/Montserrat/Montserrat-UltraLight.otf) format('otf');
+}
+
+*, html 
+{
+    margin:0;
+    padding:0;  
+}
+
+body
+{
+    font-family: Montserrat-Light,sans-serif;
+    color: rgb(208,50,75);
+    background-color: rgb(16,24,34);
+}
+
+a
+{
+    text-decoration: none;
+    color: rgb(208,50,75);
+}
+
+a:visited
+{
+    color: rgb(208,50,75);
+}
+
+/*-------------------- Header --------------------*/
+
+#header_index
+{
+    height: 46px;
+    width: 940px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#header_about
+{
+    height: 46px;
+    width: 940px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(239,236,210);
+}
+#header_about a
+{
+    color: rgb(239,236,210);
+}
+#header_about a:visited
+{
+    color: rgb(239,236,210);
+}
+
+#header_hire_me
+{
+    height: 46px;
+    width: 940px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(92,189,182);
+}
+#header_hire_me a
+{
+    color: rgb(92,189,182);
+}
+#header_hire_me a:visited
+{
+    color: rgb(92,189,182);
+}
+
+#title
+{
+    text-align: center;
+    width: 184px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Montserrat-UltraLight,sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    font-size: 14px;
+}
+
+#nav1
+{
+    margin: 0px;
+    display: block;
+    float: left;
+    font-size: 12px;
+}
+
+#nav2
+{
+    margin: 0px;
+    display: block;
+    float: right;
+    font-size: 12px;
+}
+
+#mountain
+{
+    height: 6px;
+    display: block;
+    margin-top: 22px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*------------------- Mobile Nav -------------------*/
+
+#triangle
+{
+    display: none;
+}
+
+#menu
+{
+    display: none;
+}
+
+/*-------------------- Index --------------------*/
+
+main
+{
+    font-size: 0px;
+    width: 940px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main .vignettes
+{
+    background-color: rgb(208,50,75);
+    margin-bottom: 15px;
+    margin-right: 20px;
+}
+
+main .vignettes img
+{
+    display: block;
+    height: 200px;
+    width: auto;
+}
+
+#vignette1
+{
+    display: inline-block;
+    width: 300px;
+    height: 200px;
+}
+
+#vignette2
+{
+    display: inline-block;
+    width: 620px;
+    height: 200px;
+    margin-right: 0px;
+}
+
+#vignette3
+{
+    display: inline-block;
+    width: 140px;
+    height: 200px;
+}
+
+#vignette4
+{
+    display: inline-block;
+    width: 140px;
+    height: 200px;
+}
+
+#vignette22
+{
+    display: none;
+}
+
+#vignette5
+{
+    display: inline-block;
+    width: 300px;
+    height: 200px;
+}
+
+#vignette6
+{
+    display: inline-block;
+    width: 300px;
+    height: 200px;
+    margin-right: 0px;
+}
+
+#vignette7
+{
+    display: inline-block;
+    width: 300px;
+    height: 200px;
+
+}
+
+#vignette8
+{
+    display: inline-block;
+    width: 300px;
+    height: 200px;
+}
+
+#vignette9
+{
+    display: inline-block;
+    width: 140px;
+    height: 200px;
+}
+
+#vignette10
+{
+    display: inline-block;
+    width: 140px;
+    height: 200px;
+    margin-right: 0px;
+}
+
+#vignette11
+{
+    display: inline-block;
+    width: 300px;
+    height: 200px;
+}
+
+#vignette12
+{
+    display: inline-block;
+    width: 620px;
+    height: 200px;
+    margin-right: 0px;
+}
+
+/*-------------------- About --------------------*/
+
+#text_about
+{
+    width: 460px;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 12px;
+    color: rgb(239,236,210);
+    line-height: 18px;
+}
+
+#box_ttm
+{
+    height: 40px;
+    width: 174px;
+    margin: 0 auto 0 auto;
+}
+
+#talk_to_me
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    padding-left: 6px;
+    text-align: center;
+    height: 40px;
+    width: 168px;
+    font-family: Montserrat-UltraLight,sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    line-height: 40px;
+    font-size: 12px;
+    border: 1px solid;
+    color: rgb(239,236,210);
+    transition: background-color 0.4s ease;
+}
+
+#talk_to_me:hover
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    padding-left: 6px;
+    text-align: center;
+    height: 40px;
+    width: 168px;
+    font-family: Montserrat-Light,sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    line-height: 40px;
+    font-size: 12px;
+    background-color: rgb(239,236,210);
+    color: rgb(16,24,34);
+}
+
+#social_media
+{
+    width: 154px;
+    height: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    font-size: 0px;
+}
+
+#facebook
+{
+    float: left;
+}
+
+#twitter
+{
+    width: 20px;
+    margin-left: 57px;
+}
+
+#insta
+{
+    float: right;
+}
+
+/*-------------------- Hire Me --------------------*/
+
+#text_hire_me
+{
+    width: 460px;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 12px;
+    color: rgb(92,189,182);
+    line-height: 18px;
+}
+
+#form
+{
+    width: 460px;
+    margin: 30px auto 0 auto;
+}
+
+#address_title
+{
+    color: rgb(92,189,182);
+    width: 80px;
+    height: 24px;
+    border: 1px solid;
+    font-size: 12px;
+    text-align: center;
+    padding: 6px 0 0 0;
+}
+
+input[type=email] 
+{
+    outline: none; 
+    color: rgb(92,189,182);
+    font-size: 12px;
+    border: 1px solid;
+    background-color: rgb(16,24,34);
+    display: block;
+    float: right;
+    margin-top: -32px;
+    padding: 0 15px 4px 15px;
+    height: 32px;
+    width: 379px;
+}
+
+#message_title
+{
+    color: rgb(92,189,182);
+    width: 80px;
+    height: 24px;
+    border: 1px solid;
+    font-size: 12px;
+    text-align: center;
+    padding: 6px 0 0 0;
+    margin: 15px 0 0 0;
+}
+
+textarea
+{
+    outline: none;
+    resize: none;
+    color: rgb(92,189,182);
+    font-size: 12px;
+    border: 1px solid rgb(92,189,182);
+    background-color: rgb(16,24,34);
+    height: 230px;
+    width: 379px;
+    float: right;
+    margin-top: -32px;
+    padding: 6px 15px 0px 15px;
+    text-align: left;
+    font-family: Montserrat-Light, sans-serif;
+}
+
+input[type=submit] 
+{
+    display: block;
+    float: left;
+    margin-top: 15px;
+    margin-left: 80px;
+    padding-left: 6px;
+    text-align: center;
+    height: 40px;
+    width: 86px;
+    font-family: Montserrat-UltraLight,sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    line-height: 40px;
+    font-size: 12px;
+    border: 1px solid;
+    color: rgb(92,189,182);
+    background-color: rgb(16,24,34);
+    transition: background-color 0.4s ease;
+}
+
+input[type=submit]:hover
+{
+    display: block;
+    float: left;
+    margin-top: 15px;
+    margin-left: 80px;
+    padding-left: 6px;
+    text-align: center;
+    height: 40px;
+    width: 86px;
+    font-family: Montserrat-Light,sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    line-height: 40px;
+    font-size: 12px;
+    color: rgb(16,24,34);
+    background-color: rgb(92,189,182);
+}
