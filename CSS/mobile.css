@@ -126,7 +126,7 @@ li.hire_me_menu
     background-color: rgb(92,189,182);
 }
 
-#menu li:hover
+#menu li:active
 {
     display: block;
     width: 100%;
@@ -139,19 +139,19 @@ li.hire_me_menu
     text-align: center;
 }
 
-li.index_menu:hover
+li.index_menu:active
 {
     color: rgb(208,50,75);
     background-color: rgb(16,24,34);
 }
 
-li.about_menu:hover
+li.about_menu:active
 {
     color: rgb(239,236,210);
     background-color: rgb(16,24,34);
 }
 
-li.hire_me_menu:hover
+li.hire_me_menu:active
 {
     color: rgb(92,189,182);
     background-color: rgb(16,24,34);
@@ -162,17 +162,17 @@ li.hire_me_menu:hover
     color: rgb(16,24,34);
 }
 
-#menu li.index_menu:hover a
+#menu li.index_menu:active a
 {
     color: rgb(208,50,75);
 }
 
-#menu li.about_menu:hover a
+#menu li.about_menu:active a
 {
     color: rgb(239,236,210);
 }
 
-#menu li.hire_me_menu:hover a
+#menu li.hire_me_menu:active a
 {
     color: rgb(92,189,182);
 }
@@ -311,7 +311,6 @@ main .vignettes img
 {
     width: 260px;
     margin: 30px auto 0 auto;
-    -webkit-appearance: none;
 }
 
 #address_title
@@ -338,6 +337,10 @@ input[type=email]
     padding: 0 15px 4px 15px;
     height: 32px;
     width: 200px;
+    
+    -webkit-border-radius:0; 
+    border-radius:0;
+    -webkit-appearance: none;
 }
 
 #message_title
@@ -367,6 +370,10 @@ textarea
     padding: 6px 15px 0px 15px;
     text-align: left;
     font-family: Montserrat-Light, sans-serif;
+    
+    -webkit-border-radius:0; 
+    border-radius:0;
+    -webkit-appearance: none;
 }
 
 input[type=submit] 
@@ -388,15 +395,19 @@ input[type=submit]
     color: rgb(92,189,182);
     background-color: rgb(16,24,34);
     transition: background-color 0.4s ease;
+    outline: none;
+    
+    -webkit-border-radius:0; 
+    border-radius:0;
+    -webkit-appearance: none;
 }
 
-input[type=submit]:hover
+input[type=submit]:active
 {
     display: block;
     float: left;
     margin-top: 15px;
     margin-bottom: 30px;
-    margin-left: 80px;
     padding-left: 6px;
     text-align: center;
     height: 40px;
@@ -408,4 +419,35 @@ input[type=submit]:hover
     font-size: 12px;
     color: rgb(16,24,34);
     background-color: rgb(92,189,182);
+    outline: none;
+    
+    -webkit-border-radius:0; 
+    border-radius:0;
+    -webkit-appearance: none;
+}
+
+input[type=submit]:visited
+{
+    display: block;
+    float: left;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    padding-left: 6px;
+    text-align: center;
+    height: 40px;
+    width: 86px;
+    font-family: Montserrat-UltraLight,sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    line-height: 40px;
+    font-size: 12px;
+    border: 1px solid;
+    color: rgb(92,189,182);
+    background-color: rgb(16,24,34);
+    transition: background-color 0.4s ease;
+    outline: none;
+    
+    -webkit-border-radius:0; 
+    border-radius:0;
+    -webkit-appearance: none;
 }
