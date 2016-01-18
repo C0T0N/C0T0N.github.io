@@ -199,14 +199,19 @@ main
     margin-right: auto;
 }
 
-main .vignettes
+span.bloc_titre, span.sous_titre
+{
+    display: none;
+}
+
+.vignettes
 {
     background-color: rgb(208,50,75);
     width: 100%;
     height: auto;
 }
 
-main .vignettes img
+.vignettes img
 {
     display: block;
     width: 100%;

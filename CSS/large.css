@@ -140,44 +140,116 @@ main
     margin-right: auto;
 }
 
-main .vignettes
+/*------Vignettes and hover---------*/
+
+.vignettes
 {
-    background-color: rgb(208,50,75);
     margin-bottom: 15px;
     margin-right: 20px;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
 }
-
-main .vignettes img
+.vignettes img
 {
     display: block;
-    height: 200px;
-    width: auto;
+    width: 100%;
+    -webkit-transition: opacity 300ms;
+    -moz-transition: opacity 300ms;
+    -o-transition: opacity 300ms;
+    transition: opacity 300ms;
 }
+
+.vignettes:hover img
+{
+    opacity: 0.2;
+}
+
+span.bloc_titre
+{
+    display: table;
+    margin: -135px auto 0 auto;
+    position: relative;
+    opacity: 0;
+    -webkit-transition: opacity 300ms;
+    -moz-transition: opacity 300ms;
+    -o-transition: opacity 300ms;
+    transition: opacity 300ms;
+    -webkit-transition: margin 300ms;
+    -moz-transition: margin 300ms;
+    -o-transition: margin 300ms;
+    transition: margin 300ms;
+}
+ 
+.vignettes:hover span.bloc_titre
+{
+    opacity: 1;
+    margin: -125px auto 0 auto;
+}
+
+span.bloc_titre span.titre
+{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    height: 40px;
+    color: white;
+    font-family: montserratultra_light,sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 12px;
+    border: 1px solid;
+    padding: 0 12px 0 15px;
+}
+
+span.sous_titre
+{
+    display: block;
+    text-align: center;
+    margin-top: 5px;
+    color: white;
+    font-family: montserrat_light,sans-serif;
+    font-size: 12px;
+    opacity: 0;
+    -webkit-transition: opacity 300ms ease-out;
+    -moz-transition: opacity 300ms ease-out;
+    -o-transition: opacity 300ms ease-out;
+    transition: opacity 300ms ease-out;
+    -webkit-transition: margin 400ms ease-out;
+    -moz-transition: margin 400ms ease-out;
+    -o-transition: margin 400ms ease-out;
+    transition: margin 400ms ease-out;
+}
+
+.vignettes:hover span.sous_titre
+{
+    opacity: 1;
+    margin-top: 10px;
+}
+
+/*------Vignettes in the grid---------*/
+
 
 #vignette1
 {
-    display: inline-block;
     width: 300px;
     height: 200px;
 }
 
 #vignette2
 {
-    display: inline-block;
     width: 620px;
     height: 200px;
 }
 
 #vignette3
 {
-    display: inline-block;
     width: 140px;
     height: 200px;
 }
 
 #vignette4
 {
-    display: inline-block;
     width: 140px;
     height: 200px;
     margin-right: 0px;
@@ -190,21 +262,18 @@ main .vignettes img
 
 #vignette5
 {
-    display: inline-block;
     width: 300px;
     height: 200px;
 }
 
 #vignette6
 {
-    display: inline-block;
     width: 300px;
     height: 200px;
 }
 
 #vignette7
 {
-    display: inline-block;
     width: 300px;
     height: 200px;
 
@@ -212,7 +281,6 @@ main .vignettes img
 
 #vignette8
 {
-    display: inline-block;
     width: 300px;
     height: 200px;
     margin-right: 0px;
@@ -220,28 +288,24 @@ main .vignettes img
 
 #vignette9
 {
-    display: inline-block;
     width: 140px;
     height: 200px;
 }
 
 #vignette10
 {
-    display: inline-block;
     width: 140px;
     height: 200px;
 }
 
 #vignette11
 {
-    display: inline-block;
     width: 300px;
     height: 200px;
 }
 
 #vignette12
 {
-    display: inline-block;
     width: 620px;
     height: 200px;
     margin-right: 0px;
