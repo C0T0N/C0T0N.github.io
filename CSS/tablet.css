@@ -118,7 +118,12 @@ a:visited
 
 /*------------------- Mobile Nav -------------------*/
 
-#triangle
+#triangle_show
+{
+    display: none;
+}
+
+#triangle_hide
 {
     display: none;
 }
