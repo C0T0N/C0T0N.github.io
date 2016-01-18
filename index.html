@@ -23,6 +23,21 @@
         
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <script>
+        $(window).resize(function(){
+            if ($(window).width() >= 661){	
+                $("#menu").hide();
+                $("#triangle_hide").hide();
+                $("#triangle_show").hide();
+            }	
+        });    
+        $(window).resize(function(){
+            if ($(window).width() <= 661){	
+                $("#menu").hide();
+                $("#triangle_hide").hide();
+                $("#triangle_show").show();
+            }	
+        });  
+            
         $(document).ready(function(){
             $( "#menu" ).hide();
             $( "#triangle_hide" ).hide();
@@ -39,6 +54,7 @@
         });
         </script>
     </head>
+    
     <body>
         <header id="header_index">
             <a id="nav1" href="HTML/about_maxime_heuze.html">about</a>

@@ -18,11 +18,47 @@
         <link rel="stylesheet"
               media="screen and (max-width:620px)"
               href="../CSS/mobile.css" />
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script>
+        $(window).resize(function(){
+            if ($(window).width() >= 661){	
+                $("#menu").hide();
+                $("#triangle_hide").hide();
+                $("#triangle_show").hide();
+            }	
+        });    
+        $(window).resize(function(){
+            if ($(window).width() <= 661){	
+                $("#menu").hide();
+                $("#triangle_hide").hide();
+                $("#triangle_show").show();
+            }	
+        });
+            
+        $(document).ready(function(){
+            $( "#menu" ).hide();
+            $( "#triangle_hide" ).hide();
+            $("#triangle_show").click(function(){
+                $("#menu").show();
+                $("#triangle_show").hide();
+                $("#triangle_hide").show();
+            });
+            $("#triangle_hide").click(function(){
+                $("#menu").hide();
+                $("#triangle_hide").hide();
+                $("#triangle_show").show();
+            });
+        });
+        </script>
     </head>
+    
     <body>
         <header id="header_hire_me">
             <a href="../HTML/about_maxime_heuze.html"><p id="nav1">about</p></a>
             <a href="../index.html"><p id="nav2">work</p></a>
+            <a href="#"><img id="triangle_show" src="../Images/Triangle_green.svg" alt=""/></a>
+            <a href="#"><img id="triangle_hide" src="../Images/Triangle_green_flip.svg" alt=""/></a>
             <p id="title">Maxime Heuzé</p>
             <img id="mountain" src="../Images/Moutain_green.png"/>
         </header>
