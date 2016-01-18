@@ -311,6 +311,7 @@ main .vignettes img
 {
     width: 260px;
     margin: 30px auto 0 auto;
+    -webkit-appearance: none;
 }
 
 #address_title
