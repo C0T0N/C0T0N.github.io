@@ -43,11 +43,35 @@ a:visited
     color: rgb(239,236,210);
     width: 100%;
 }
+#header_about a
+{
+    color: rgb(239,236,210);
+}
+#header_about a:visited
+{
+    color: rgb(239,236,210);
+}
 
 #header_hire_me
 {
     color: rgb(92,189,182);
     width: 100%;
+}
+#header_hire_me a
+{
+    color: rgb(92,189,182);
+}
+#header_hire_me a:visited
+{
+    color: rgb(92,189,182);
+}
+
+#box_title
+{
+    display: block;
+    width: 200px;
+    text-align: center;
+    margin: auto;
 }
 
 #title
