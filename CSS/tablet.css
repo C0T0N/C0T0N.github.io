@@ -162,7 +162,7 @@ main
 
 span.bloc_titre
 {
-    display: none;
+    display: table;
     margin: -135px auto 0 auto;
     position: relative;
     opacity: 0;
@@ -178,7 +178,6 @@ span.bloc_titre
  
 .vignettes:hover span.bloc_titre
 {
-    display: table;
     opacity: 1;
     margin: -125px auto 0 auto;
 }
@@ -200,7 +199,7 @@ span.bloc_titre span.titre
 
 span.sous_titre
 {
-    display: none;
+    display: block;
     text-align: center;
     margin-top: 5px;
     color: white;
@@ -221,7 +220,6 @@ span.sous_titre
 {
     opacity: 1;
     margin-top: 10px;
-    display: block;
 }
 
 /*------Vignettes in the grid---------*/
