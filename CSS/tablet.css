@@ -200,7 +200,7 @@ span.bloc_titre span.titre
 
 span.sous_titre
 {
-    display: block;
+    display: none;
     text-align: center;
     margin-top: 5px;
     color: white;
@@ -221,6 +221,7 @@ span.sous_titre
 {
     opacity: 1;
     margin-top: 10px;
+    display: block;
 }
 
 /*------Vignettes in the grid---------*/
