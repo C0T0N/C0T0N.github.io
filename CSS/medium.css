@@ -162,7 +162,7 @@ main
 
 span.bloc_titre
 {
-    display: table;
+    display: none;
     margin: -135px auto 0 auto;
     position: relative;
     opacity: 0;
@@ -178,6 +178,7 @@ span.bloc_titre
  
 .vignettes:hover span.bloc_titre
 {
+    display: table;
     opacity: 1;
     margin: -125px auto 0 auto;
 }
@@ -199,7 +200,7 @@ span.bloc_titre span.titre
 
 span.sous_titre
 {
-    display: block;
+    display: none;
     text-align: center;
     margin-top: 5px;
     color: white;
@@ -218,6 +219,7 @@ span.sous_titre
 
 .vignettes:hover span.sous_titre
 {
+    display: block;
     opacity: 1;
     margin-top: 10px;
 }
