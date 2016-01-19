@@ -165,6 +165,7 @@ span.bloc_titre
     display: table;
     margin: -135px auto 0 auto;
     position: relative;
+    color: white;
     opacity: 0;
     -webkit-transition: opacity 300ms;
     -moz-transition: opacity 300ms;
@@ -188,7 +189,6 @@ span.bloc_titre span.titre
     text-align: center;
     vertical-align: middle;
     height: 40px;
-    color: white;
     font-family: montserratultra_light,sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -199,9 +199,10 @@ span.bloc_titre span.titre
 
 span.sous_titre
 {
-    display: block;
+    display: table;
     text-align: center;
-    margin-top: 5px;
+    position: relative;
+    margin: 5px auto 0 auto;
     color: white;
     font-family: montserrat_light,sans-serif;
     font-size: 12px;
