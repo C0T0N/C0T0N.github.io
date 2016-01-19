@@ -69,6 +69,14 @@ a:visited
     color: rgb(92,189,182);
 }
 
+#box_title
+{
+    display: block;
+    width: 200px;
+    text-align: center;
+    margin: auto;
+}
+
 #title
 {
     text-align: center;
@@ -87,7 +95,9 @@ a:visited
     margin: 0px;
     display: block;
     float: left;
-    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 10px;
 }
 
 #nav2
@@ -95,7 +105,9 @@ a:visited
     margin: 0px;
     display: block;
     float: right;
-    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 10px;
 }
 
 #mountain
