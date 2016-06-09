@@ -22,6 +22,39 @@
         <link rel="stylesheet"
               media="screen and (max-width:660px)"
               href="CSS/mobile.css" />
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script>
+        $(window).resize(function(){
+            if ($(window).width() >= 661){	
+                $("#menu").hide();
+                $("#triangle_hide").hide();
+                $("#triangle_show").hide();
+            }	
+        });    
+        $(window).resize(function(){
+            if ($(window).width() <= 661){	
+                $("#menu").hide();
+                $("#triangle_hide").hide();
+                $("#triangle_show").show();
+            }	
+        });  
+            
+        $(document).ready(function(){
+            $( "#menu" ).hide();
+            $( "#triangle_hide" ).hide();
+            $("#triangle_show").click(function(){
+                $("#menu").show();
+                $("#triangle_show").hide();
+                $("#triangle_hide").show();
+            });
+            $("#triangle_hide").click(function(){
+                $("#menu").hide();
+                $("#triangle_hide").hide();
+                $("#triangle_show").show();
+            });
+        });
+        </script>
     </head>
     
     <body>
@@ -125,50 +158,5 @@
         
         <footer>
         </footer>
-        
-        <script type="text/javascript">
-        function downloadJSAtOnload() {
-        var element = document.createElement("script");
-        element.src = "https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js";
-        document.body.appendChild(element);
-        }
-        if (window.addEventListener)
-        window.addEventListener("load", downloadJSAtOnload, false);
-        else if (window.attachEvent)
-        window.attachEvent("onload", downloadJSAtOnload);
-        else window.onload = downloadJSAtOnload;
-        </script>
-        
-        <script>
-        $(window).resize(function(){
-            if ($(window).width() >= 661){	
-                $("#menu").hide();
-                $("#triangle_hide").hide();
-                $("#triangle_show").hide();
-            }	
-        });    
-        $(window).resize(function(){
-            if ($(window).width() <= 661){	
-                $("#menu").hide();
-                $("#triangle_hide").hide();
-                $("#triangle_show").show();
-            }	
-        });  
-            
-        $(document).ready(function(){
-            $( "#menu" ).hide();
-            $( "#triangle_hide" ).hide();
-            $("#triangle_show").click(function(){
-                $("#menu").show();
-                $("#triangle_show").hide();
-                $("#triangle_hide").show();
-            });
-            $("#triangle_hide").click(function(){
-                $("#menu").hide();
-                $("#triangle_hide").hide();
-                $("#triangle_show").show();
-            });
-        });
-        </script>
     </body>
 </html>
