@@ -22,38 +22,6 @@
         <link rel="stylesheet"
               media="screen and (max-width:660px)"
               href="CSS/mobile.css" />
-        
-        <script>
-        $(window).resize(function(){
-            if ($(window).width() >= 661){	
-                $("#menu").hide();
-                $("#triangle_hide").hide();
-                $("#triangle_show").hide();
-            }	
-        });    
-        $(window).resize(function(){
-            if ($(window).width() <= 661){	
-                $("#menu").hide();
-                $("#triangle_hide").hide();
-                $("#triangle_show").show();
-            }	
-        });  
-            
-        $(document).ready(function(){
-            $( "#menu" ).hide();
-            $( "#triangle_hide" ).hide();
-            $("#triangle_show").click(function(){
-                $("#menu").show();
-                $("#triangle_show").hide();
-                $("#triangle_hide").show();
-            });
-            $("#triangle_hide").click(function(){
-                $("#menu").hide();
-                $("#triangle_hide").hide();
-                $("#triangle_show").show();
-            });
-        });
-        </script>
     </head>
     
     <body>
@@ -169,6 +137,38 @@
         else if (window.attachEvent)
         window.attachEvent("onload", downloadJSAtOnload);
         else window.onload = downloadJSAtOnload;
+        </script>
+        
+        <script>
+        $(window).resize(function(){
+            if ($(window).width() >= 661){	
+                $("#menu").hide();
+                $("#triangle_hide").hide();
+                $("#triangle_show").hide();
+            }	
+        });    
+        $(window).resize(function(){
+            if ($(window).width() <= 661){	
+                $("#menu").hide();
+                $("#triangle_hide").hide();
+                $("#triangle_show").show();
+            }	
+        });  
+            
+        $(document).ready(function(){
+            $( "#menu" ).hide();
+            $( "#triangle_hide" ).hide();
+            $("#triangle_show").click(function(){
+                $("#menu").show();
+                $("#triangle_show").hide();
+                $("#triangle_hide").show();
+            });
+            $("#triangle_hide").click(function(){
+                $("#menu").hide();
+                $("#triangle_hide").hide();
+                $("#triangle_show").show();
+            });
+        });
         </script>
     </body>
 </html>
