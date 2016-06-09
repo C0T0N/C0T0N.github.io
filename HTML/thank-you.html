@@ -21,7 +21,6 @@
               media="screen and (max-width:620px)"
               href="../CSS/mobile.css" />
         
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <script>
         $(window).resize(function(){
             if ($(window).width() >= 661){	
@@ -62,7 +61,7 @@
             <a href="#"><img id="triangle_show" src="../Images/Triangle_green.svg" alt=""/></a>
             <a href="#"><img id="triangle_hide" src="../Images/Triangle_green_flip.svg" alt=""/></a>
             <div id="box_title">
-                <a href="../index.html"><p id="title">Maxime Heuzé</p></a>
+                <a href="../index.html"><p id="title_hire_me" class="title">Maxime Heuzé</p></a>
             </div>
             <img id="mountain" src="../Images/Moutain_green.png"/>
         </header>
@@ -80,5 +79,18 @@
         
         <footer>
         </footer>
+        
+        <script type="text/javascript">
+        function downloadJSAtOnload() {
+        var element = document.createElement("script");
+        element.src = "https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js";
+        document.body.appendChild(element);
+        }
+        if (window.addEventListener)
+        window.addEventListener("load", downloadJSAtOnload, false);
+        else if (window.attachEvent)
+        window.attachEvent("onload", downloadJSAtOnload);
+        else window.onload = downloadJSAtOnload;
+        </script>
     </body>
 </html>
