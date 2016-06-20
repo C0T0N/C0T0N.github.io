@@ -43,27 +43,11 @@ a:visited
     color: rgb(239,236,210);
     width: 100%;
 }
-#header_about a
-{
-    color: rgb(239,236,210);
-}
-#header_about a:visited
-{
-    color: rgb(239,236,210);
-}
 
 #header_hire_me
 {
     color: rgb(92,189,182);
     width: 100%;
-}
-#header_hire_me a
-{
-    color: rgb(92,189,182);
-}
-#header_hire_me a:visited
-{
-    color: rgb(92,189,182);
 }
 
 #box_title
@@ -74,7 +58,7 @@ a:visited
     margin: auto;
 }
 
-#title
+.title
 {
     text-align: center;
     width: 184px;
@@ -86,6 +70,36 @@ a:visited
     text-transform: uppercase;
     letter-spacing: 6px;
     font-size: 14px;
+}
+
+#title_index
+{
+    color: rgb(208,50,75);
+}
+
+#title_about
+{
+    color: rgb(239,236,210);
+}
+
+#title_hire_me
+{
+    color: rgb(92,189,182);
+}
+
+#title_index:visited
+{
+    color: rgb(208,50,75);
+}
+
+#title_about:visited
+{
+    color: rgb(239,236,210);
+}
+
+#title_hire_me:visited
+{
+    color: rgb(92,189,182);
 }
 
 #nav1
